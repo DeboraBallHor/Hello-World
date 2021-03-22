@@ -1,6 +1,7 @@
 package br.com.digitalhouse;
 
 public class Exercicio1 {
+
     public static boolean verificarMenor(Integer num1, Integer num2) {
         return num1 < num2 ;
     }
@@ -10,10 +11,11 @@ public class Exercicio1 {
 
         if (2 < 5) {
             System.out.println(true);
-        } else {
-            if (2 >5) {
+        } else if (2 > 5) {
                 System.out.println(false);
-            }
+        } else {
+        	System.out.println("igual");
         }
     }
+    
 }
